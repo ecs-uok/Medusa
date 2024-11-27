@@ -56,7 +56,7 @@ const ContactUs = () => {
 
   const TeamCard = ({ member, className }) => (
     <div
-      className={`text-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center ${className}`}
+      className={`text-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center ${className}`} id="contact"
     >
       <img
         src={member.photo}
