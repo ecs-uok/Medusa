@@ -117,6 +117,7 @@ const MemberDetailsForm = () => {
             className="block text-sm font-medium text-white"
           >
             Payment Detail Link
+            <p><a href="https://drive.google.com/file/d/1QBuXzu2A8nTzJf795MQvzR5kZOkGOC1o/view?usp=sharing" target="_blank"  className="hover:bg-black decoration: underline" style={{ color: "blue",  }}>(INSTRUCTIONS) </a></p>
           </label>
           <input
             type="text"
