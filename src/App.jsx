@@ -8,6 +8,8 @@ import Registeration from "./components/Registeration/Registeration";
 import Submit from "./components/Submit/Submit";
 import Timeline from "./components/Timeline/Timeline";
 import ContactUs from "./components/ContactUs/ContactUs";
+import WhatIsMedusa from "./components/WhatIsMedusa/WhatIsMedusa";
+
 
 
 import {
@@ -46,6 +48,7 @@ const App = () => {
       <>
         <Navbar />
         <Home />
+        <WhatIsMedusa/>
         <Timeline />
         <Pricepool />
         <Partners />
