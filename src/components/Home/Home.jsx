@@ -62,7 +62,7 @@ const Home = () => {
                 onHoverStart={(e) => {}}
                 onHoverEnd={(e) => {}}
               >
-                <Link to={"https://drive.google.com/file/d/1Rhp0MhQI4Z4VulT_m8-KDawFiVLKzGog/view?usp=drivesdk"} target="_blank">
+                <Link to={"https://drive.google.com/file/d/1RmxNHdb1xgyEFaxNFi5h6G5q0cWvF8Sb/view?usp=drivesdk"} target="_blank">
                 <Button
                   text="DELEGATE_BOOKLET"
                   className=" bg-green-800 text-lg text-white  px-4 py-2 rounded-non cursor-pointer bg-fixed"
