@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div
     id="Home"
-      className="  px-16 h-screen w-screen  bg-cover bg-center bg-no-repeat md:bg-cover md:bg-center md:bg-no-repeat bg-green-950 "
+      className="  px-16  w-screen  bg-cover bg-center bg-no-repeat md:bg-cover md:bg-center md:bg-no-repeat bg-green-950 "
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className=" flex flex-col justify-center items-center text-center lg:flex-row xl:flex xl:flex-row lg:flex lg:justify-between xl:justify-between text-sm mt-[64px]">
