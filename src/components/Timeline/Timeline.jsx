@@ -2,10 +2,10 @@ import React from 'react';
 
 const timelineData = [
   { image: '/dec21.png', position: '140px', xPosition: '650px', label: 'Event 1', date: '2024.12.21', topic:'Grand Finals' },
-  { image: '/dec7.png', position: '170px', xPosition: '300px', label: 'Event 2', date: '2024.12.07',  topic:'1st Quiz' },
-  { image: '/dec1.png', position: '310px', xPosition: '870px', label: 'Event 3', date: '2024.12.01',  topic:'Awareness Session' },
-  { image: '/nov21.png', position: '500px', xPosition: '520px', label: 'Event 4', date: '2024.11.21', topic:'Registration Close'},
-  { image: '/nov15.png', position: '600px', xPosition: '150px', label: 'Event 5', date: '2024.11.15', topic:'Registration Open' },
+  { image: '/dec7.png', position: '170px', xPosition: '300px', label: 'Event 2', date: '2024.12.14',  topic:'1st Quiz' },
+  { image: '/dec1.png', position: '310px', xPosition: '870px', label: 'Event 3', date: '2024.12.06 or 07',  topic:'Awareness Session' },
+  { image: '/nov21.png', position: '500px', xPosition: '520px', label: 'Event 4', date: '2024.12.07', topic:'Registration Close'},
+  { image: '/nov15.png', position: '600px', xPosition: '150px', label: 'Event 5', date: '2024.11.27', topic:'Registration Open' },
 ];
 
 const Timeline = () => {
