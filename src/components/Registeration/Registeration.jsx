@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { FcOk } from "react-icons/fc";
 
 
 const MemberDetailsForm = () => {
@@ -82,9 +82,9 @@ const MemberDetailsForm = () => {
   };
   
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r font-techno from-black via-green-900 to-black">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r font-techno from-black via-green-900 to-black ">
       <form
-        className="isolate aspect-video w-96 rounded-xl bg-white/20 shadow-lg ring-1 ring-black/5 p-6 mt-20"
+        className="isolate aspect-video w-96 rounded-xl bg-white/20 shadow-lg ring-1 ring-black/5 p-6 mt-20 mb-20"
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl font-semibold text-center mb-4 ">
@@ -116,12 +116,13 @@ const MemberDetailsForm = () => {
             htmlFor="paymentLink"
             className="block text-sm font-medium text-white"
           >
-            Payment Detail Link
+            Payment Detail Link<span className="text-red-500">*</span>
             <p><a href="https://drive.google.com/file/d/1QBuXzu2A8nTzJf795MQvzR5kZOkGOC1o/view?usp=sharing" target="_blank"  className="hover:bg-black decoration: underline" style={{ color: "blue",  }}>(INSTRUCTIONS) </a></p>
           </label>
           <input
             type="text"
             id="paymentLink"
+            required
             value={paymentLink}
             onChange={handlePaymentLinkChange}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
@@ -210,9 +211,9 @@ const MemberDetailsForm = () => {
             <div className="mb-4">
               <label
                 htmlFor={`mobileNumber_${index}`}
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-white"
               >
-                Mobile Number <span className="text-red-500">*</span>
+                Whatsapp Number <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
@@ -267,7 +268,9 @@ const MemberDetailsForm = () => {
             </p>
             {status.startsWith("success") && (
               <div>
-                <p className="text-green-500 text-lg"> Success! Your form has been submitted.</p>
+                
+                <p className="text-green-500 text-lg"> Success!</p>
+                <div style={{ display: 'grid', placeItems: 'center' }}><FcOk  size="48" /></div>
                 Join our WhatsApp group:{" "}
                 <a
                   href="https://chat.whatsapp.com/DqpJHFMaxdCG0VdtyKmiv1"
