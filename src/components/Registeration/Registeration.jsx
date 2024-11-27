@@ -182,13 +182,13 @@ const MemberDetailsForm = () => {
                   (year) => (
                     <div key={year} className="flex items-center">
                       <input
-                        type="radio"
+                        type="checkbox"
                         id={`year_${index}_${year}`}
                         name="yearOfStudy"
                         value={year}
                         checked={member.yearOfStudy === year}
                         onChange={(e) => handleChange(index, e)}
-                        required
+                        
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
                       />
                       <label
