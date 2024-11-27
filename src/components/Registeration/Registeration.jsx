@@ -80,7 +80,7 @@ const MemberDetailsForm = () => {
       setLoading(false);
     }
   };
-
+  
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r font-techno from-black via-green-900 to-black">
       <form
@@ -132,6 +132,8 @@ const MemberDetailsForm = () => {
         {members.map((member, index) => (
           <div key={index} className="mb-6 border-b pb-4 last:border-none">
             <h3 className="text-lg font-semibold mb-2">Member {index + 1}</h3>
+
+            
 
             {/* Member Name */}
             <div className="mb-4">

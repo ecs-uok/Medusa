@@ -11,6 +11,7 @@ import medusaimage from "../../assets/images/Medusa Img.svg";
 const Home = () => {
   return (
     <div
+    id="Home"
       className="  px-16 h-screen w-screen  bg-cover bg-center bg-no-repeat md:bg-cover md:bg-center md:bg-no-repeat bg-green-950 "
       style={{ backgroundImage: `url(${background})` }}
     >

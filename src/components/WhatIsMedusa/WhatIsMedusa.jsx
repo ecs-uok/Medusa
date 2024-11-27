@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatIsMedusa = () => {
   return (
-    <div className="h-screen bg-[#033004] relative">
+    <div className="h-screen bg-[#033004] relative" id="about">
       {/* Background image with transparent gradient */}
       <div
         className="absolute inset-0 bg-gradient-to-b from-[#033004]/60 to-black bg-cover bg-center"

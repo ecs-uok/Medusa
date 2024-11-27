@@ -11,7 +11,7 @@ const timelineData = [
 const Timeline = () => {
   return (
     <>
-      <div style={{ backgroundColor: '#002200' }} className="sm: hidden lg:flex items-center justify-center h-[1000px] flex flex-col items-center py-10">
+      <div id="timeline" style={{ backgroundColor: '#002200' }} className="sm: hidden lg:flex items-center justify-center h-[1000px] flex flex-col items-center py-10">
         <h1 className="relative text-[#A6FD99] text-2xl mt-[300px] mb-[-150px]">TIMELINE</h1><br/><br/>
 
         <div className="relative justify-between w-full h-96w-full max-w-5xl flex flex-col items-center">
