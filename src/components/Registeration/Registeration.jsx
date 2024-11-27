@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../Buttton/Button";
 
 
 
@@ -80,7 +81,7 @@ const MemberDetailsForm = () => {
       setLoading(false);
     }
   };
-  
+
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r font-techno from-black via-green-900 to-black">
       <form
@@ -111,13 +112,13 @@ const MemberDetailsForm = () => {
         </div>
 
         {/* Payment Link */}
+        
         <div className="mb-6">
           <label
             htmlFor="paymentLink"
             className="block text-sm font-medium text-white"
           >
             Payment Detail Link
-            <p><a href="https://drive.google.com/file/d/1QBuXzu2A8nTzJf795MQvzR5kZOkGOC1o/view?usp=sharing" target="_blank"  className="hover:bg-black decoration: underline" style={{ color: "blue",  }}>(INSTRUCTIONS) </a></p>
           </label>
           <input
             type="text"
@@ -132,8 +133,6 @@ const MemberDetailsForm = () => {
         {members.map((member, index) => (
           <div key={index} className="mb-6 border-b pb-4 last:border-none">
             <h3 className="text-lg font-semibold mb-2">Member {index + 1}</h3>
-
-            
 
             {/* Member Name */}
             <div className="mb-4">
