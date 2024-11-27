@@ -13,7 +13,7 @@ const WhatIsMedusa = () => {
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-white px-6 sm:px-8 md:px-16 lg:px-24 xl:px-32 font-bold font-[TechnoNue]">
         
         {/* Medusa Section */}
-        <div className="flex flex-col sm:gap-10 mb-[60px] md:flex-row mb-[-150px] items-center justify-center gap-8 mt-8 md:mt-16 lg:mt-[100px] mb-[-100px]">
+        <div className="flex flex-col sm:gap-10  md:flex-row mb-[-150px] items-center justify-center gap-8 mt-8 md:mt-16 lg:mt-[100px] mb-[10px] lg:mb-[50px] xl:mb-[-60px]">
           <img
             src="MedusaLogoStand.png"
             alt="Medusa Competition Logo"
