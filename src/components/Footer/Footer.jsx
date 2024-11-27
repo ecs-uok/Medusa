@@ -14,10 +14,10 @@ const Footer = () => {
 </div>
       <div className="container mx-auto flex flex-col items-center space-y-4 sm:space-y-6 lg:space-y-8">
         <div className="flex space-x-8">
-          <a href="#" className="text-white text-xl sm:text-2xl"><FaFacebook className="text-green-400 w-6 h-6 sm:w-8 sm:h-8" /></a>
-          <a href="#" className="text-white text-xl sm:text-2xl"><FaInstagram className="text-green-400 *:w-6 h-6 sm:w-8 sm:h-8" /></a>
-          <a href="#" className="text-white text-xl sm:text-2xl"><FaLinkedin className="text-green-400 *:w-6 h-6 sm:w-8 sm:h-8" /></a>
-          <a href="#" className="text-white text-xl sm:text-2xl"><FaYoutube className="text-green-400 w-6 h-6 sm:w-8 sm:h-8" /></a>
+          <a href="https://www.facebook.com/ecscuok?mibextid=ZbWKwL" className="text-white text-xl sm:text-2xl " target="_blank"  ><FaFacebook className="text-green-400 w-6 h-6 sm:w-8 sm:h-8" /></a>
+          <a href="https://www.instagram.com/ecsc_uok/" className="text-white text-xl sm:text-2xl" target="_blank"  ><FaInstagram className="text-green-400 *:w-6 h-6 sm:w-8 sm:h-8" /></a>
+          <a href="https://www.linkedin.com/company/electronics-and-computer-science-club?originalSubdomain=lk" className="text-white text-xl sm:text-2xl" target="_blank"  ><FaLinkedin className="text-green-400 *:w-6 h-6 sm:w-8 sm:h-8" /></a>
+          <a href="https://youtube.com/@ecscuok?si=QD39CiG8vyVjjvTN" className="text-white text-xl sm:text-2xl" target="_blank"  ><FaYoutube className="text-green-400 w-6 h-6 sm:w-8 sm:h-8" /></a>
         </div>
         <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 lg:space-x-8">
           <a href="#home" className="text-white text-sm sm:text-base">HOME</a>
