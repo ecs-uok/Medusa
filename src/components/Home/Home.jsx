@@ -51,7 +51,7 @@ const Home = () => {
                 onHoverStart={(e) => {}}
                 onHoverEnd={(e) => {}}
               >
-                <Link to={"/hacker"} >
+                <Link  >
                 <Button
                   text="REGISTRATION CLOSED"
                   className=" bg-red-600 text-lg text-white font-poppins px-4 py-2 rounded-non cursor-pointer"
