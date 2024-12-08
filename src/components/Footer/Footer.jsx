@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <hr className="w-full border-t-4 border-gray-550 my-4 sm:my-6 lg:my-8" />
         <div className="text-center">
-          <p className="text-sm sm:text-base">© Copyright 2024 | All Rights Reserved</p>
+          <p className="text-sm sm:text-base">© Copyright 2024 | All Rights Reserved|Developed by ECSC web team</p>
         </div>
       </div>
     </footer>
