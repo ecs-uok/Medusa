@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/whatsapp"
+  to = "https://whatsapp.com/channel/0029Vb6vhSBKrWQv83bWfR3q"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/facebook"
+  to = "https://www.facebook.com/share/1CF2MtLLBr/?mibextid=wwXIfr"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/company/medusaecs/"
+  status = 301
+  force = true
